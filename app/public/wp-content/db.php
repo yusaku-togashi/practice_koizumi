@@ -1,0 +1,1 @@
+/Users/togashi.y/Local Sites/practice-koizumi/app/public/wp-content/plugins/query-monitor/wp-content/db.php

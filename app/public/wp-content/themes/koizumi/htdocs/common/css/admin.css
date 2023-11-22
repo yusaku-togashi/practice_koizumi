@@ -1,0 +1,150 @@
+/*　基本設定　*/
+body {
+	text-align: center;
+	padding: 0px;
+	font-size: 100%;
+	color: #333333;
+	line-height: 1.4;
+	font-family:	verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	margin: 0px;
+	background-color: #FFFFFF;
+}
+* + html body {
+font-family:"メイリオ","Meiryo";
+}
+h1, h2, h3, h4, p, ul, ol, li, dl, dt, dd, form  {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+a:link {
+	color: #0F8344;
+	text-decoration: underline;
+}
+a:visited {
+	color: #0F8344;
+	text-decoration: underline;
+}
+a:active, a:hover {
+	color: #F0693C;
+	text-decoration: underline;
+}
+dl {
+	overflow: hidden;
+	zoom: 1;
+}
+ul {
+ list-style-type: none;
+}
+li {
+ list-style-position: outside;
+}
+img {
+	vertical-align: top;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+#admin {
+	padding-top: 50px;
+}
+#admin h1 {
+	margin-bottom: 20px;
+}
+h1#adtitle {
+	color: #336633;
+	font-size: 120%;
+	margin-bottom: 20px;
+}
+
+.adwaku {
+	margin-bottom: 35px;
+	width: 630px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	border: 1px solid #CCCCCC;
+}
+.adtt {
+	font-weight: bold;
+	text-align: left;
+	width: 630px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+
+
+dl#news {
+	width: auto;
+	overflow: hidden;
+	zoom: 1;
+	text-align: left;
+	font-size: 88%;
+	padding: 10px;
+}
+
+dl#news dt {
+	float: left;
+	font-weight: bold;
+}
+dl#news dd {
+	padding-left: 120px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #bebcb9;
+}
+ul#staff {
+	width: 100%;
+	overflow: hidden;
+	zoom: 1;
+	margin-bottom: 400px;
+}
+ul#staff li {
+	float: left;
+	width: 48%;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+}
+ul#staff li dl {
+	overflow: hidden;
+	zoom: 1;
+	width: auto;
+	text-align: left;
+}
+ul#staff li dl dt {
+	float: left;
+}
+ul#staff li dl dd {
+	padding-left: 120px;
+}
+ul#voice {
+	background-image: url(../clinic/images/cork.jpg);
+	background-repeat: repeat;
+	text-align: center;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+ul.admenu {
+	margin-bottom: 20px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 15px;
+}
+ul.admenu li {
+	background-image: url(../images/ic_01.gif);
+	background-repeat: no-repeat;
+	background-position: left;
+	text-align: left;
+	padding-left: 20px;
+}
+ul.admenu li#home {
+	background-image: url(../images/ico_home.gif);
+}

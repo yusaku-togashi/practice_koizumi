@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/* ==========================================================
+	Reset
+========================================================== */
+body, h1, h2, h3, h4, p, ul, ol, li, dl, dt, dd, form  {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+body {
+	background-image: url(../images/bg.jpg);
+	background-repeat: repeat-x;
+	background-color: #FFFFFF;
+	color: #434343;
+	font-size: 93%;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", verdana, Sans-Serif;
+	line-height: 1.4;
+	text-align: center;
+}
+* + html body {
+	font-family: "メイリオ","Meiryo", sans-serif;
+}
+a:link {
+	color: #388bd1;
+	text-decoration: none;
+}
+a:visited {
+	color: #6C36A3;
+	text-decoration: none;
+}
+a:active, a:hover {
+	text-decoration: underline;
+}
+dl {
+	overflow: hidden;
+	*zoom: 1;
+}
+ul {
+	list-style-type: none;
+}
+ul.list_disc {
+	list-style-type: disc !important;
+}
+li {
+	list-style-position: outside;
+}
+img {
+	vertical-align: top;
+	border: 0;
+}
